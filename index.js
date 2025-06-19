@@ -7,6 +7,7 @@ const form = document.querySelector("form");
 const main=document.querySelector("main");
 const email_div=document.querySelector(".email");
 const input=document.querySelector("input");
+const span=document.querySelector("span");
 // console.log('success is',success);
 success.remove();
 invalid.remove();
@@ -29,6 +30,9 @@ function handleDeviceChange(e) {
                 counter = 1;
                 main.remove();
                 body.appendChild(success);
+                console.log(span);
+                span.innerText =data.email;
+
             }else{
                 console.log("hello");
                 email_div.appendChild(invalid);
