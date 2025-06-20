@@ -18,21 +18,18 @@
         max-height: 200dvh;
     }
 
-    .main {
-    }
-
     main>img {
         width: 100%;
     }
 
     h1 {
-        font-family: RobertoBold;
+        font-family: RobertoBold, Roboto, sans-serif;
         font-weight: 700;
         margin-bottom: 0;
     }
 
     .info {
-        font-family: RobertoRegular;
+        font-family: RobertoRegular, Roboto, sans-serif;
         font-weight: 400;
         padding: 1% 5%;
     }
@@ -74,7 +71,7 @@
 
     .email>p {
         font-size: 0.75rem;
-        font-family: RobertoBold;
+        font-family: RobertoBold, Roboto, sans-serif;
         font-weight: 400;
         margin: 0;
     }
@@ -97,7 +94,7 @@
     }
 
     span {
-        font-family: RobertoBold;
+        font-family: RobertoBold, Roboto, sans-serif;
         color: hsl(235, 18%, 26%);
         font-weight: 700;
     }
@@ -109,7 +106,7 @@
         margin: 0;
         box-sizing: border-box;
         border-radius: 0.625rem;
-        font-family: RobertoBold;
+        font-family: RobertoBold, Roboto, sans-serif;
         font-weight: 700;
         color: hsl(0, 0%, 100%);
         background-color: hsl(234, 29%, 20%);
@@ -121,12 +118,12 @@
     }
 
     .success>div>p {
-        font-family: RobertoRegular;
+        font-family: RobertoRegular, Roboto, sans-serif;
         font-weight: 400;
     }
 
     h1 {
-        font-family: RobertoBold;
+        font-family: RobertoBold, Roboto, sans-serif;
         font-weight: 700;
     }
 
@@ -172,11 +169,12 @@
         font-size: 3.7rem;
         margin-bottom: 7%;
         margin-top: 5%;
+        font-family: RobertoBold, Roboto, sans-serif;
     }
 
     .info {
         padding: 5% 4%;
-        font-family: RobertoRegular;
+        font-family: RobertoRegular, Roboto, sans-serif;
         font-weight: 400;
     }
 
@@ -197,7 +195,7 @@
 
     .email>p {
         font-size: 0.75rem;
-        font-family: RobertoBold;
+        font-family: RobertoBold, Roboto, sans-serif;
         font-weight: 400;
     }
 
@@ -228,7 +226,7 @@
         margin: 0;
         box-sizing: border-box;
         border-radius: 0.625rem;
-        font-family: RobertoBold;
+        font-family: RobertoBold, Roboto, sans-serif;
         font-weight: 700;
         color: hsl(0, 0%, 100%);
         background-color: hsl(234, 29%, 20%);
@@ -242,7 +240,7 @@
     }
 
     span {
-        font-family: RobertoBold;
+        font-family: RobertoBold, Roboto, sans-serif;
         color: hsl(235, 18%, 26%);
         font-weight: 700;
     }
